@@ -2,6 +2,10 @@ html * {
     font-family: arvo;
 }
 
+body {
+    background-color: rgb(137, 179, 216);
+}
+
 .main {
 	display: flex;
 	align-items: center;
@@ -22,12 +26,15 @@ html * {
 }
 
 .screen {
+    display: flex;
     border: 5px solid blue;
     border-radius: 10px;
     height: 100px;
     padding: 10px 20px;
     margin: 20px;
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(255, 251, 251);
+    font-size: 40px;
+    justify-content: right;
 }
 
 #clearBtn {
@@ -36,6 +43,7 @@ html * {
     background-color: rgb(230, 141, 141);
     font-size: 16px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #clearBtn:hover {
@@ -48,24 +56,27 @@ html * {
     background-color: #9b9bff;
     font-size: 16px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #deleteBtn:hover {
     background-color: #6d6db1;
 }
 
-.button-columns {
+.calculator-keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border: 5px solid red;
     height: 480px;
     margin: 20px;
+    background-color: gray;
 }
 
 .btn {
     font-size: 16px;
     margin: 5px;
     border-radius: 10px;
+    background-color: #fff
 
 }
 
